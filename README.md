@@ -18,6 +18,7 @@ HTML, CSS, JavaScript
 
 ## Improvements Planned
  - UI syling
+ - Implementation Using React
  - Local Storage Implementation
  - Task Prioritation (High, Med , Low)
  - Due date Feature
