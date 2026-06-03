@@ -1,0 +1,64 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header { 
+    display: flex;
+    justify-content: center ;
+}
+
+.taskList {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.taskDiv { 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+
+.taskDescription {
+    padding: 5px;
+    width: 100px;
+    height: 100%;
+    overflow: wrap;           
+    overflow-wrap: break-word;
+    border: 1px solid lightgrey;  
+    text-align: center;
+    justify-content: center;
+}
+
+.closeBtn {
+    background-color: white;
+    border: 2px solid #f44336; 
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover{
+        background-color: #f44336;
+        color: white;
+    }
+}
+
+#addBtn {
+    cursor: pointer;
+}
+
+.completedTask{
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    cursor: pointer;
+}
+
+.pendingTask{
+    background-color: white;
+    border: 2px solid #04AA6D;
+    color: black;
+    cursor: pointer;
+}
